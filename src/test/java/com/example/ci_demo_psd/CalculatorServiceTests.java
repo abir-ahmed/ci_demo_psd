@@ -48,4 +48,10 @@ public class CalculatorServiceTests {
     public void testPower() {
         assertEquals(9, 9, "3 ^ 2  should equal 9");
     }
+
+    @Test
+    public void testModulus() {
+        int result = calculatorService.modulus(10, 3);
+        assertEquals(1, result, "10 % 3 should equal 1");
+    }
 }
