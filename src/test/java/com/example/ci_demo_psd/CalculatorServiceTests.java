@@ -15,7 +15,7 @@ public class CalculatorServiceTests {
     @Test
     public void testAdd() {
         int result = calculatorService.add(5, 5);
-        assertEquals(8, result, "5 + 3 should equal 8");
+        assertEquals(10, result, "5 + 5 should equal 10");
     }
 
     @Test
