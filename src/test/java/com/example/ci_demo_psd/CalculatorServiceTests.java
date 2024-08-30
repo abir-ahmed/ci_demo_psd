@@ -43,4 +43,9 @@ public class CalculatorServiceTests {
         });
         assertEquals("Division by zero is not allowed.", exception.getMessage());
     }
+
+    @Test
+    public void testPower() {
+        assertEquals(9, 9, "3 ^ 2  should equal 9");
+    }
 }
